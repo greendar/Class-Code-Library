@@ -13,7 +13,7 @@ void setup() {
 void loop() {
   digitalWrite(9, HIGH);
   delay(500);
-  reading = analogRead(A3)
+  reading = analogRead(A3);
   Serial.println(reading);
   delay(100);
 }
